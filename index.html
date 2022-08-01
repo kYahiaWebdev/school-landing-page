@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Curiculums</a>
+          <a class="nav-link" href="#">Subscription</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container-fluid gradient-purple p-0 my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 p-4">
+        <div class="card border-0 bg-transparent text-white" style="width: 100%">
+          <div class="card-body">
+            <h1 class="card-title">Futuris Fundamental School</h1>
+            <p class="card-text fs-4 text-justify my-4">
+              Nurturing future leaders and scholars. We offer a multidiciplinary curriculum taht our children deserve.
+            </p>
+            <a href="#" class="btn btn-outline-success fs-3">Read more</a>
+            <a href="#" class="btn btn-outline-warning fs-3">Play video</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 p-4">
+        <img src="./img/email_campaign_monochromatic.svg" alt="">
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="positive-wave">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L30,122.7C60,149,120,203,180,208C240,213,300,171,360,133.3C420,96,480,64,540,74.7C600,85,660,139,720,154.7C780,171,840,149,900,117.3C960,85,1020,43,1080,37.3C1140,32,1200,64,1260,90.7C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+      </path>
+    </svg>
+
+  </header>
+
+  <main class="my-5">
+    <section class="container-fluid activities">
+      <div class="row px-5">
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center">Calculate</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/calculate.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center">Draw</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/draw.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center" class="text-center mb-auto">Read</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/read.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center">Nap</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/sleep.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center">Play</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/sport.webp" alt="">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h3 class="text-center">Toys</h3>
+          <div class="row align-items-center activity-img">
+            <img src="./img/activities/toys.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid introduction gradient-purple p-0 text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="negative-wave">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,96L30,122.7C60,149,120,203,180,208C240,213,300,171,360,133.3C420,96,480,64,540,74.7C600,85,660,139,720,154.7C780,171,840,149,900,117.3C960,85,1020,43,1080,37.3C1140,32,1200,64,1260,90.7C1320,117,1380,139,1410,149.3L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+        </path>
+      </svg>
+      <div class="row align-items-center">
+        <div class="col-md-6 d-none d-md-block px-5">
+          <img src="./img/seo_monochromatic.svg" alt="">
+        </div>
+        <div class="col-md-6 px-5">
+          <h1>Introducing our school</h1>
+          <div class="intro-body fs-4">
+            <p>We bring the latest methods of education with all modern approaches.
+              We are a warm and welcoming family.</p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle mx-4"></i>A</li>
+              <li><i class="bi bi-check-circle mx-4"></i>B</li>
+              <li><i class="bi bi-check-circle mx-4"></i>C</li>
+              <li><i class="bi bi-check-circle mx-4"></i>D</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="positive-wave">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,96L30,122.7C60,149,120,203,180,208C240,213,300,171,360,133.3C420,96,480,64,540,74.7C600,85,660,139,720,154.7C780,171,840,149,900,117.3C960,85,1020,43,1080,37.3C1140,32,1200,64,1260,90.7C1320,117,1380,139,1410,149.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <section class="container-fluid contact p-0">
+      <div class="row align-items-center px-5">
+        <div class="col-md-6 col-sm-12">
+          <h1 class="mb-3">Contact us :</h1>
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Message</label>
+            </div>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./img/handshake.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="gradient-purple fs-4">
+    <p class="text-center text-white p-3">
+      Made by <a class="link">MCS Technology</a>
+      <span class="theme-buttons" style="margin-left: 1em;">
+        <button id="green-btn"></button>
+        <button id="orange-btn"></button>
+        <button id="purple-btn"></button>
+      </span>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

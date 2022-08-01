@@ -1,0 +1,42 @@
+.gradient-purple{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,97,202,1) 0%, rgba(105,0,199,1) 100%);
+}
+.gradient-green{
+   background: rgb(154,205,50);
+   background: linear-gradient(90deg, rgba(154,205,50,1) 0%, rgba(53,228,226,1) 100%);
+}
+.gradient-orange{
+   background: rgb(255,165,0);
+   background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(240,252,80,1) 100%);
+}
+.navbar-brand img{
+   height: 2em;
+}
+section.activities{
+   margin-top: -4rem;
+}
+
+/* section.activities .activity-img img{
+   width: 100%;
+} */
+
+.activity-img{
+   height: calc(100% - 2rem);
+}
+
+.theme-buttons button{
+   height: 1em;
+   width: 1em;
+   border: 4px solid white;
+   border-radius: .2em;
+}
+#green-btn{
+   background-color: yellowgreen;
+}
+#purple-btn{
+   background-color: rgb(105,0,199);
+}
+#orange-btn{
+   background-color: orange;
+}
